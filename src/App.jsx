@@ -1,9 +1,14 @@
+import Header from "./components/Header"
+
+import "../src/styles/reset.sass"
+import "../src/styles/app.sass"
+import "../src/styles/variables.sass"
 
 function App() {
   
   return (
-    <div className="App">
-      <h1>lobe tour page</h1>
+    <div className="root">
+      <Header />
     </div>
   )
 }
