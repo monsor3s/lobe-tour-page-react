@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button'
 
 import Logo from '../../assets/logo.png'
 import './style.sass'
@@ -24,7 +25,7 @@ function Header() {
           <div>Help</div>
         </a>
       </nav>
-      <button className="main-button">Download</button>
+      <Button />
     </div>
   )
 }
