@@ -4,6 +4,7 @@ import Body from "./components/Body"
 import "../src/styles/reset.sass"
 import "../src/styles/app.sass"
 import "../src/styles/variables.sass"
+import Footer from "./components/Footer"
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <div className="root">
       <Header />
       <Body />
+      <Footer />
     </div>
   )
 }

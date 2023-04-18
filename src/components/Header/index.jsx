@@ -6,7 +6,7 @@ import './style.sass'
 
 function Header() {
   return (
-    <div className="main-header">
+    <header className="main-header">
       <img src={Logo} alt="logo header" />
       <nav className="header-nav">
         <a href="" className="nav-link">
@@ -26,7 +26,7 @@ function Header() {
         </a>
       </nav>
       <Button />
-    </div>
+    </header>
   )
 }
 
