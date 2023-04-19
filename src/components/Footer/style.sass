@@ -7,13 +7,15 @@
   justify-content: center
   align-items: center
   box-sizing: border-box
+  margin-top: 100px
 
 .footer-content
   display: flex
-  justify-content: space-around
+  justify-content: space-between
   min-width: 1072px
   height: 345px
   padding: 60px 80px
+  border-top: .5px solid rgba(0, 0, 0, .2)
   box-sizing: border-box
 
 .footer-left
@@ -41,17 +43,29 @@
 
 .footer-column-link-container
   margin-bottom: 24px
+  transition: .4s ease
+
+  &:hover
+    transform: scale3d(1.05,1.05,1.05)
 
 .footer-column-link
   font-size: 16px
   color: #000
   text-decoration: none
+  
 
 .footer-social-links
+  width: 144px
   display: flex
-  justify-content: space-evenly
+  justify-content: space-between
   align-items: flex-start
   box-sizing: border-box
 
 .footer-social-icon
-  
+  width: 35px
+  height: 35px
+  cursor: pointer
+  transition: .1s ease-in
+
+  &:hover
+    transform: scale3d(1.1,1.1,1.1)
