@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Button'
+import Button from '../../objects/Button'
 
 import Logo from '../../assets/logo.png'
 import './style.sass'
@@ -16,7 +16,7 @@ function Header() {
           <a href="" className="nav-link">
             <div>Examples</div>
           </a>
-          <a href="" className="nav-link">
+          <a href="" className="nav-link -tour">
             <div>Tour</div>
           </a>
           <a href="" className="nav-link">
