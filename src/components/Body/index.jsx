@@ -16,7 +16,7 @@ function Body() {
         </div>
       </div>
       <h1 className="main-text">Train your<br/> app with Lobe</h1>
-      <Button />
+      <Button className="-large" />
     </body>
   )
 }

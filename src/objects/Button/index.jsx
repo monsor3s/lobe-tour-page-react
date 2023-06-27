@@ -2,9 +2,9 @@ import React from 'react'
 
 import './style.sass'
 
-function Button() {
+function Button({ className }) {
   return (
-    <button className="main-button">Download</button>
+    <button className={`main-button ${className}`}>Download</button>
   )
 }
 
