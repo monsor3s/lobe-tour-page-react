@@ -58,6 +58,12 @@
   min-width: 100%
   object-fit: cover
 
+.video-stream
+  width: 769px
+  height: 480px
+  left: 1px
+  top: 0px
+
 .main-text
   font-size: 68px
   font-weight: 900
@@ -65,3 +71,31 @@
   padding-bottom: 48px
   padding-top: 80px
   text-align: center
+
+.main-section .popup-video
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 100
+  background: rgba(0, 0, 0, .8)
+  height: 100%
+  width: 100%
+  display: none
+
+.main-section .popup-video .video-embed
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  width: 750px
+  border-right: 5px
+  object-fit: cover
+
+.main-section .popup-video span
+  position: absolute
+  top: 5px
+  right: 20px
+  font-size: 50px
+  color: #fff
+  z-index: 100
+  cursor: pointer
